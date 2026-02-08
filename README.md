@@ -9,12 +9,19 @@ Innowacyjny projekt wykorzystujący **Agentów AI** do automatyzacji powtarzalny
 Projekt demonstruje pełny cykl automatyzacji "Low-Code/No-Code" z wykorzystaniem sztucznej inteligencji.
 
 ### 🔍 Etapy Procesu
-| ID | Moduł | Cel i Funkcja |
-| :--- | :--- | :--- |
-| **Tc1** | Google Drive Agent | Automatyczne monitorowanie folderu i pobieranie plików z opisem wymagań. |
-| **Tc2** | AI Reasoning | Analiza tekstu przez AI i generowanie przypadków testowych (ID, Kroki, Rezultaty). |
-| **Tc3** | Jira Integration | Automatyczne tworzenie ticketów typu "Test Case" lub "Bug" w projekcie Jira. |
-| **Tc4** | Data Transformation | Konwersja formatów danych (np. .txt / .docx na ustrukturyzowany JSON). |
+1. Google Drive → monitoruje wskazany folder na Dysku Google i uruchamia przepływ, gdy pojawi się nowy plik PDF z wymaganiami projektowymi.
+
+2.Google Drive → pobiera zawartość nowo dodanego pliku PDF.
+
+3.Tools → scala dane tekstowe z pliku PDF w jeden ciąg, tak aby Gemini mógł je łatwo przetworzyć.
+
+4.Gemini → analizuje wymagania projektowe i generuje na ich podstawie przypadki testowe.
+
+5.JSON → przekształca wygenerowany przez Gemini tekst w strukturę JSON, aby dane mogły być przetwarzane dalej.
+
+6.Flow Control → Iterator → rozdziela poszczególne przypadki testowe z JSON-a, aby można je było utworzyć jako osobne zgłoszenia.
+
+7.Jira Cloud → tworzy w Jirze osobne zgłoszenie (issue) dla każdego przypadku testowego.
 
 ### 🛠️ Wykorzystane Technologie
 | Technologia | Zastosowanie |
