@@ -1,7 +1,7 @@
 # 🤖 AI Agents - Automatyzacja Procesu QA (Google Drive -> AI -> Jira)
 
 ## 📖 Opis Projektu
-Innowacyjny projekt wykorzystujący **Agentów AI** do automatyzacji powtarzalnych zadań w procesie testowym. System automatycznie pobiera surowe dane z Dysku Google, przetwarza je na profesjonalne przypadki testowe przy użyciu modeli LLM i samodzielnie raportuje je do systemu **Jira**.
+Innowacyjny projekt wykorzystujący **Agentów AI** do automatyzacji powtarzalnych zadań w procesie testowym. System automatycznie pobiera plik z dokumentacja projektową z Dysku Google, przetwarza ją na profesjonalne przypadki testowe przy użyciu modeli LLM i samodzielnie raportuje je do systemu **Jira**.
 
 ---
 
