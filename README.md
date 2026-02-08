@@ -39,6 +39,9 @@ Projekt demonstruje pełny cykl automatyzacji "Low-Code/No-Code" z wykorzystanie
 <li><a href="https://github.com/piotrwalas1/PORTFOLIO/blob/main/finalny%20przeplyw.jpg">Test AI Agents – Proof of Concept - Stworzenie zespołu agentów AI do generowania przypadków testowych na podstawie dokumentacji projektowej. </a></li>
 
   <li><a href="https://youtu.be/OTUNZPEidOU">Przepływ film</a></li>
+  <p align="center">
+  <img src="https://github.com/piotrwalas1/PORTFOLIO/blob/main/make%20przeplyw.jpg" width="600" title="Schemat automatyzacji">
+</p>
 
 ---
 
