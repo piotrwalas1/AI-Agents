@@ -9,6 +9,7 @@ Innowacyjny projekt wykorzystujący **Agentów AI** do automatyzacji powtarzalny
 Projekt demonstruje pełny cykl automatyzacji "Low-Code/No-Code" z wykorzystaniem sztucznej inteligencji.
 
 ### 🔍 Etapy Procesu
+
 1. Google Drive → monitoruje wskazany folder na Dysku Google i uruchamia przepływ, gdy pojawi się nowy plik PDF z wymaganiami projektowymi.
 
 2.Google Drive → pobiera zawartość nowo dodanego pliku PDF.
